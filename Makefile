@@ -12,3 +12,6 @@ publish: # Опубликовать poetry проект
 
 package-install: # Установка пакета
 	python -m pip install --user dist/*.whl
+
+lint: #Проверка кода линтером
+	poetry run flake8 brain_games
