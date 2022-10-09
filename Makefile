@@ -10,5 +10,5 @@ build: # Собрать poetry проект
 publish: # Опубликовать poetry проект
 	poetry publish --dry-run
 
-package-istall: # Установка пакета
+package-install: # Установка пакета
 	python -m pip install --user dist/*.whl
