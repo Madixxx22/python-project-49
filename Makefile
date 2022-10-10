@@ -7,6 +7,9 @@ brain-games: # Запуск brain_games
 brain-even: # Запуск even_games
 	poetry run brain-even
 
+brain-calc: # Запуск cacl_games
+	poetry run brain-calc
+
 build: # Собрать poetry проект 
 	poetry build
 
