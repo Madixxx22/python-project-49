@@ -1,5 +1,5 @@
 from random import choice, randint
-from brain_games.games.is_win import is_win_calc
+from brain_games.games.is_win import is_win
 
 def calc_game(name: str):
     operations = ["+", "-", "*"]
@@ -10,14 +10,20 @@ def calc_game(name: str):
         num1 = randint(0, 100)
         num2 = randint(0, 100)
         if op == "+":
-            print(f'Question: {num1} {op} {num2}')
-            answer_correct = num1 + num2
+            print('Question: {num1} {op} {num2}')
+            correct_answer = num1 + num2
         elif op == "-":
             print(f'Question: {num1} {op} {num2}')
-            answer_correct = num1 - num2
+            correct_answer = num1 - num2
         else:
             print(f'Question: {num1} {op} {num2}')
-            answer_correct = num1 * num2
-        user_answer = input('Your answer: ')
-        count_win = is_win_calc(int(answer_correct), int(user_answer), count_win, name)
-              
+            correct_answer = num1 * num2
+        user_answer = int(input('Your answer: '))
+        if correct_answer == user_answer:
+            is_win(True, False, correct_answer, user_answer, name)
+            count_win += 1
+        else:
+            is_win(False, False, correct_answer, user_answer, name)
+            count_win = -1
+        if count_win == 3:
+            is_win(True, True, correct_answer, user_answer, name)
