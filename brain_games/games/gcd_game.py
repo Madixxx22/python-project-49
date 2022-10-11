@@ -6,7 +6,7 @@ from brain_games.games.is_win import is_win
 def gcd_game():
     name = greetings()
     count_win = 0
-    print('Find the greatest common divisior of given numbers.')
+    print('Find the greatest common divisor of given numbers.')
     while count_win != -1 and count_win < 3:
         num1 = randint(0, 100)
         num2 = randint(0, 100)
