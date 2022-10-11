@@ -22,4 +22,3 @@ def progression_game():
         print(f'Question: {" ".join(map(str, progression))}')
         user_answer = int(input('Your answer: '))
         count_win = is_win(correct_answer, user_answer, name, count_win)
-   

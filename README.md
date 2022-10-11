@@ -9,3 +9,5 @@
 Аксинема brain-gcd: https://asciinema.org/a/e2FCml0LOU9JRONB7lzB57pDL
 
 Аскинема brain-progression: https://asciinema.org/a/tBzVWPMloZXqf1CdnMvDIFMZY
+
+Аскинема brain-prime: https://asciinema.org/a/RhMMa9tyPD3wKihNc39pA2aZa

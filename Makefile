@@ -12,6 +12,9 @@ brain-gcd: # Запуск gcd_game
 
 brain-progression: # Запуск proggression_game
 	poetry run brain-progression
+
+brain-prime: # Запуск prime_game
+	poetry run brain-prime
 	
 install: # Установка poetry
 	poetry install
