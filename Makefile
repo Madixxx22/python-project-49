@@ -10,6 +10,9 @@ brain-even: # Запуск even_games
 brain-calc: # Запуск cacl_games
 	poetry run brain-calc
 
+brain-gcd: # Запуск gcd_games
+	poetry run brain-gcd
+
 build: # Собрать poetry проект 
 	poetry build
 
