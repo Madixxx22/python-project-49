@@ -1,17 +1,20 @@
-install: # Установка poetry
-	poetry install
-
-brain-games: # Запуск brain_games
+brain-games: # Запуск brain_game
 	poetry run brain-games
 
-brain-even: # Запуск even_games
+brain-even: # Запуск even_game
 	poetry run brain-even
 
-brain-calc: # Запуск cacl_games
+brain-calc: # Запуск cacl_game
 	poetry run brain-calc
 
-brain-gcd: # Запуск gcd_games
+brain-gcd: # Запуск gcd_game
 	poetry run brain-gcd
+
+brain-progression: # Запуск proggression_game
+	poetry run brain-progression
+	
+install: # Установка poetry
+	poetry install
 
 build: # Собрать poetry проект 
 	poetry build

@@ -21,12 +21,4 @@ def gcd_game():
             else:
                 correct_answer = num1 + num2
                 break
-        if correct_answer == user_answer:
-            count_win += 1
-            if count_win == 3:
-                is_win(True, True, correct_answer, user_answer, name)
-            else:
-                is_win(True, False, correct_answer, user_answer, name)
-        else:
-            count_win = -1
-            is_win(False, False, correct_answer, user_answer, name)
+        count_win = is_win(correct_answer, user_answer, name, count_win)
