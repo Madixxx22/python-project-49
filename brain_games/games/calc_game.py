@@ -5,11 +5,11 @@ from brain_games.games.is_win import is_win
 
 def calc_game():
     name = greetings()
-    operations = ["+", "-", "*"]
+    OPERATIONS = ["+", "-", "*"]
     count_win = 0
     print('What is the result of the expression?')
     while count_win != -1 and count_win < 3:
-        op = choice(operations)
+        op = choice(OPERATIONS)
         num1 = randint(0, 100)
         num2 = randint(0, 100)
         if op == "+":
