@@ -11,7 +11,7 @@ def prime_game():
     while count_win != -1 and count_win < 3:
         list_decimal = []
         num = randint(1, 100)
-        for i in range(1, num+1):
+        for i in range(1, num + 1):
             if num % i == 0:
                 list_decimal.append(i)
         if len(list_decimal) == 2:
