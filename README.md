@@ -9,6 +9,8 @@ Brain game - это сборник игр, которые при правиль�
 
 Сборка и запуск: https://asciinema.org/a/YCDJYHZDNT6h15twO60dVra6D
 
+## Аскиинемы запусков проекта
+
 Аскинема brain-even: https://asciinema.org/a/8AVcUHdOSv6Hbuvh1y05oh4EM
 
 Аскинема brain-calc: https://asciinema.org/a/lRcqGE953X5xU86IrEPorCCOh
