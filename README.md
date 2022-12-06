@@ -3,7 +3,7 @@
 <a href="https://codeclimate.com/github/Madixxx22/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/36af7edc4f02d1c8dc8a/maintainability" /></a>
 
 # Brain game Hexlet project
-Brain game - это сборник игр, которые при правильно йстановке можно запускать из терминала и имеющий консольный ввод вывод.
+Brain game - это сборник игр, которые при правильной установке можно запускать из терминала и имеющий консольный ввод вывод.
 
 ## Сборка проекта и локальный запуск
 
